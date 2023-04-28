@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #00abeb;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    width: 100%;
+    height: 10%;
+}
+ul{
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+li,a{
+    color: #000001;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 2%;
+    font-size: 30px;
+}
+.logo{
+    padding-right: 100%;
+}
+.a{
+    width: 60%;
+}
+header{
+    width: 100%;
+    height: 90%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    height: 80%;
+    border: solid #8d95ef;
+    box-shadow: 2px 2px 10px #000001;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000001;
+    background-color: #0c77a7;
+}
+.foto{
+    border-radius: 50%;
+    width: 40%;
+    height: 40%;
+    border: solid;
+    background-image: url(./card.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.parrado{
+    margin-bottom: 10%;
+}
+.redes_sociales{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    padding-left: 5%;
+
+}
+.facebook{
+    width:  15%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 5%;
+    background-image: url("./facebook.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.instagran{
+    width:  15%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 5%;
+    background-image: url("./instagram.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tweter{
+    width:  15%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 5%;
+    background-image: url("./twitter_108058.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.youtube{
+    width:  15%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 5%;
+    background-image: url("./youtube.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.github{
+    width:  15%;
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 5%;
+    background-image: url(./git.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.about_me{
+    width: 100%;
+    height: 90%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.imagen_mia{
+    width: 30%;
+    height: 80%;
+    border: solid white;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+}
+.parte2{
+    width: 50%;
+    height: 80%;
+    border: solid;
+    font-size: 30px;
+    padding: 3% 0 3% 0;
+    
+}
+.parrafo{
+    margin-bottom: 5%;
+    color: white;
+}
+.Contacto{
+    margin-top: 5%;
+    width: 20%;
+    height: 20%;
+    border: solid;
+    font-size: 25px;
+    margin-left: 40%;
+    color: white;
+}
+.Contacto:hover{
+    background-color: yellow;
+}
+
+.datos_personales{
+    width: 100%;
+    height: 60%;
+}
+.Ability{
+    width: 100%;
+    height: 50%;
+    border: solid;
+    display: flex;
+    justify-content: center;
+}
+.parte_1{
+    width: 80%;
+    height: 100%;
+    border: solid;
+    color: white;
+    
+}
+.titulo_lenguaje{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+.html5{
+    width: 20%;
+    height: 20%;
+    background-image: url("./HTML5_logo_and_wordmark.svg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.css{
+    width: 20%;
+    height: 20%;
+    background-image: url("./CSS3_logo_and_wordmark.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5%;
+}
+.php{
+    width: 20%;
+    height: 20%;
+    background-image: url("./PHP-logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5%;
+}
+.laravel{
+    width: 20%;
+    height: 20%;
+    background-image: url("./1200px-Laravel.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.javascrip{
+    width: 20%;
+    height: 20%;
+    background-image: url("./png-clipart-javascript-open-logo-number-js-angle-text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5%;
+    
+}
+.bostrap{
+    width: 20%;
+    height: 20%;
+    background-image: url("./Bootstrap_logo.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5%;
+}
